@@ -305,7 +305,7 @@ namespace windows_admin_toolbox
         }
         private void progDriver(object sender, RoutedEventArgs e)
         {
-            buildProg(@"IObit\Driver Booster\DriverBooster.exe", "http://it-bc.de/downloads/windows_admin_toolbox/Porgramme/driver_booster_setup.exe");
+            buildProg(@"IObit\Driver Booster\DriverBooster.exe", "http://update.iobit.com/dl/db7/driver_booster_setup_free.exe");
         }
         private void progTeamviewer(object sender, RoutedEventArgs e)
         {
