@@ -1,0 +1,14 @@
+﻿<Controls:MetroWindow x:Class="windows_admin_toolbox.TeamviewerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:windows_admin_toolbox"
+        mc:Ignorable="d"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="Windows Admin Toolbox - Teamviewer" Height="295.369" Width="367.667" Icon="Logo/logo.ico" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid Margin="0,0,-0.333,20.667">
+        <Button x:Name="host" Content="Host" HorizontalAlignment="Left" Margin="55,46,0,0" VerticalAlignment="Top" Width="260" RenderTransformOrigin="0.13,-0.24" BorderThickness="0" Background="#FF6F6F6F" Height="40"/>
+        <Button x:Name="qs" Content="Quick Support" HorizontalAlignment="Left" Margin="55,151,0,0" VerticalAlignment="Top" Width="260" RenderTransformOrigin="0.13,-0.24" BorderThickness="0" Background="#FF6F6F6F" Height="40"/>
+    </Grid>
+</Controls:MetroWindow>

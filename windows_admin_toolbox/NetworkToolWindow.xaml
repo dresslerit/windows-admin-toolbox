@@ -1,0 +1,22 @@
+﻿<Controls:MetroWindow x:Class="windows_admin_toolbox.NetworkToolWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:windows_admin_toolbox"
+        mc:Ignorable="d"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="Windows Admin Toolbox - Netzwerk Tools" Height="570.333" Width="367.667" Icon="Logo/logo.ico" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <Button x:Name="adapter_info" Content="Adapter Informationen" HorizontalAlignment="Left" Margin="55,25,0,0" VerticalAlignment="Top" Width="260" RenderTransformOrigin="0.13,-0.24" BorderThickness="0" Background="#FF6F6F6F" Height="40"/>
+        <Button x:Name="ping_google" Content="PING google.de" HorizontalAlignment="Left" Margin="55,75,0,0" VerticalAlignment="Top" Width="260" RenderTransformOrigin="0.13,-0.24" BorderThickness="0" Background="#FF6F6F6F" Height="40"/>
+        <Button x:Name="ping_local" Content="ping localhost" HorizontalAlignment="Left" Margin="55,125,0,0" VerticalAlignment="Top" Width="260" RenderTransformOrigin="0.13,-0.24" BorderThickness="0" Background="#FF6F6F6F" Height="40"/>
+        <Button x:Name="flush_dns" Content="Flush DNS" HorizontalAlignment="Left" Margin="55,175,0,0" VerticalAlignment="Top" Width="260" RenderTransformOrigin="0.13,-0.24" BorderThickness="0" Background="#FF6F6F6F" Height="40"/>
+        <Button x:Name="arp_info" Content="ARP Lookup" HorizontalAlignment="Left" Margin="55,225,0,0" VerticalAlignment="Top" Width="260" RenderTransformOrigin="0.13,-0.24" BorderThickness="0" Background="#FF6F6F6F" Height="40"/>
+        <Button x:Name="arp_clear" Content="ARP Clear" HorizontalAlignment="Left" Margin="55,275,0,0" VerticalAlignment="Top" Width="260" RenderTransformOrigin="0.13,-0.24" BorderThickness="0" Background="#FF6F6F6F" Height="40"/>
+        <Button x:Name="dhcp_renew" Content="DHCP Release Erneuern" HorizontalAlignment="Left" Margin="55,324,0,0" VerticalAlignment="Top" Width="260" RenderTransformOrigin="0.13,-0.24" BorderThickness="0" Background="#FF6F6F6F" Height="40"/>
+        <Button x:Name="dhcp_register" Content="DHCP &amp; DNS neu registrieren" HorizontalAlignment="Left" Margin="55,374,0,0" VerticalAlignment="Top" Width="260" RenderTransformOrigin="0.13,-0.24" BorderThickness="0" Background="#FF6F6F6F" Height="40" Click="dhcp_register_Click"/>
+        <Button x:Name="dhcp_release" Content="DHCP IP Freigeben" HorizontalAlignment="Left" Margin="55,424,0,0" VerticalAlignment="Top" Width="260" RenderTransformOrigin="0.13,-0.24" BorderThickness="0" Background="#FF6F6F6F" Height="40"/>
+        <Button x:Name="adapter_reset" Content="Adapter Reset" HorizontalAlignment="Left" Margin="55,474,0,0" VerticalAlignment="Top" Width="260" RenderTransformOrigin="0.13,-0.24" BorderThickness="0" Background="#FF6F6F6F" Height="40"/>
+    </Grid>
+</Controls:MetroWindow>
